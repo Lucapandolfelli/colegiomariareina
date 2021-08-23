@@ -21,8 +21,6 @@
 }
 
 .banner{
-    /* background-image: url('../img/colegiomariariena.jpg'); */
-    background-image: url('./img/colegiomariariena.jpg');
-    background-size: cover;
+    background-image: url('../img/colegiomariariena.jpg');
     height: 80vh;
 }
