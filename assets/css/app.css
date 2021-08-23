@@ -1,0 +1,27 @@
+.navbar-top{
+    background-color: #fafafa;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-top-items{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-top-item a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.banner{
+    background-image: url('../img/colegiomariariena.jpg');
+    background-size: cover;
+    height: 80vh;
+}
