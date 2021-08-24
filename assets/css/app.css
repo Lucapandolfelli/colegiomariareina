@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-title{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.title-line{
+    color: #222 !important;
+    height: 3px !important;
+    opacity: 1 !important;
+    width: 30%;
+    margin: .5rem auto 2rem auto;
+}
+
 .navbar-top{
     background-color: #fafafa;
     height: 35px;
@@ -6,7 +42,7 @@
     align-items: center;
 }
 
-.navbar-top-items{
+.navbar-top__items{
     list-style: none;
     display: flex;
     justify-content: center;
@@ -15,7 +51,7 @@
     padding: 0;
 }
 
-.navbar-top-item a{
+.navbar-top__item a{
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -24,5 +60,65 @@
     background-image: url('../img/colegiomariariena.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 85vh;
+}
+
+.schools-section{
+    background-color: #ddd;
+}
+
+.sc-card{
+    width: 100%;
+    background-color: #fff;
+    box-sizing: 0 1.4rem 8rem rgba(0,0,0,.2);
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.sc-card__img{
+    width: 35%;
+}
+
+.sc-card__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sc-card__info{
+    padding: 1.5rem;
+    width: 65%;
+}
+
+.sc-card__title{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: #222;
+}
+
+.sc-card__text{
+    margin-bottom: 1.5rem;
+    font-size: 16px;
+    color: rgab(0,0,0,.7);
+}
+
+.sc-card__link{
+    display: inline-block;
+    padding: .5rem 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 3px;
+    background-color: blueviolet;
+    text-decoration: none;
+}
+
+footer{
+    background: #c4c4c4; 
+    color: #222;
 }
