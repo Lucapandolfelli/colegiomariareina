@@ -126,6 +126,25 @@ h1{
     font-size: 25px;
     text-decoration: none;
     color: #222;
+    margin-bottom: 0 !important;
+    transition: all 0.3s ease;
+}
+
+.card-title:hover{
+    color: black;
+}
+
+.card-info{
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+
+.card-info__links{
+    text-decoration: none;
+}
+
+.card-text{
+    margin-top: .25rem;
 }
 
 .card-link{
