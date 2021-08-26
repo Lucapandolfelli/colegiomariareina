@@ -56,6 +56,10 @@ h1{
     text-transform: uppercase;
 }
 
+.navbar{
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+
 .banner{
     background-image: url('../img/colegiomariariena.jpg');
     background-size: cover;
@@ -126,6 +130,31 @@ h1{
 
 .card-link{
     text-decoration: none;
+}
+
+.post-page{
+    padding: 0 10rem;
+    margin: 1.5em 0;
+}
+
+.post-page__title{
+    text-align: center;
+    margin-bottom: .75rem;
+}
+
+.post-page__info{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+
+.post-page__info__links{
+    text-decoration: none;
+}
+
+.post-page__content{
+    text-align: justify;
+
 }
 
 footer{
