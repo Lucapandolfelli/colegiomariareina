@@ -120,6 +120,12 @@ h1{
 
 .card-title{
     font-size: 25px;
+    text-decoration: none;
+    color: #222;
+}
+
+.card-link{
+    text-decoration: none;
 }
 
 footer{
